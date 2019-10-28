@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Helper</string>
+    <string name="title_activity_theo">Simplex</string>
+    <string name="large_text">
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_theo2">Dual</string>
+    <string name="text_dual" />
+    <string name="text_glossary">
+<b>Glossary</b>
+"
+<b>Basic solution</b> is a corner-point solution that has been augmented by the slack, artificial, and surplus variables that are needed by the simplex method.
+<b>Basic variables</b> are variables that are non-negative in terms of the optimal solution.
+<b>Constraints</b> are a series of equalities and inequalities that are a set of criteria necessary to satisfy when finding the optimal solution.
+<b>Cost table</b> is a table that displays all the alternative costs of assigning assignees to tasks in an assignment problem, so the table provides a complete formulation of the problem.
+<b>Dual problem</b> is the linear programming problem that has a dual relationship with the original (primal) linear programming problem of interest according to duality theory.
+<b>Dual simplex method</b> is an algorithm that deals with a linear programming problem as if the simplex method were being applied simultaneously to its dual problem.
+<b>Dual feasible</b> is a primal basic solution is said to be dual feasible if the complementary dual basic solution is feasible for the dual problem.
+<b>Feasible solution</b> is a solution satisfying the constraints of a mathematical programming problem.
+<b>Functional constraint</b> a constraint with a function of the decision variables on the left-hand side. All constraints in a linear programming model that are not nonnegativity.
+<b>Inequality</b> is an expression that does not have one definite solution and is distinguishable by its ‘greater than’ or ‘less than’ symbols in the place of a traditional equal sign.
+<b>Infeasible solution</b> is a solution to a mathematical programming problem where constraints, specifically the non-negativity constraints of the problem, have not all been satisfied.
+<b>Integer programming</b>linear programming with the added restriction that all the variables are constrained to be integers. NOTE: The general mathematical formulation of the integer programming problem is the set of matrix relationships as follows:
+                                          min (or) max f(x)=c^T x
+                                            subject to:
+                                                   Ax ≤ b
+                                          and
+                                                  x ≥0
+<b>Linear program</b> is a model used to achieve the best outcome given a maximum or minimum equation with linear constraints.
+<b>Mathematical programming</b> is a general problem of optimizing a function of several variables subject to a number of constraints.
+<b>Non-basic variables</b> are variables that are zero in terms of the optimal solution.
+<b>Nonnegativity constraint</b> a constraint that expresses the restriction that a particular decision variable must be nonnegative (greater than or equal to zero).
+<b>Objective function</b> the part of a mathematical model such as a linear programming model that expresses what needs to be maximized or minimized, depending on the objective for the problem.
+<b>Optimal solution</b> of a maximization linear programming model are the values assigned to the variables in the objective function to give the largest zeta value.  The optimal solution would exist on the corner points of the graph of the entire model.
+<b>Pivot column</b> is the column of numbers below row 0 in a simplex tableau that is in the column for the current entering basic variable.
+<b>Pivot number</b> the number in a simplex tableau that currently is at the intersection of the pivot column and the pivot row.
+<b>Pivot variable</b> is used in row operations to identify which variable will become the unit value and is a key factor in the conversion of the unit value.
+<b>Pivot row</b> the row of a simplex tableau that is for the current leaving basic variable.
+<b>Primal problem</b> is the original linear programming problem of interest when using duality theory to define an associated dual problem.
+<b>Primal feasible </b>is a primal basic solution is said to be primal feasible if it is feasible for the primal problem.
+<b>Quadratic programming</b> is a maximization/minimization, subject to linear constraints, of an objective function that is a concave/convex quadratic function.
+<b>Reduced cost</b> is the reduced cost for a nonbasic variable measures how much its coefficient in the objective function can be increased (when maximizing) or decreased (when minimizing) before the optimal solution would change and this nonbasic variable would become a basic variable. The reduced cost for a basic variable automatically is 0.
+<b>Row of a simplex tableau</b> is a row of numbers to the right of the Z column in the simplex tableau
+<b>Shadow price</b> is when the right-hand side of a constraint in ≤ form gives the amount available of a certain resource, the shadow price for that resource is the rate at which the optimal value of the objective function could be increased by slightly increasing the amount of this resource being made available.
+<b>Simplex method</b> is an approach to solving linear programming models by hand using slack variables, tableaus, and pivot variables as a means to finding the optimal solution of an optimization problem.
+<b>Simplex tableau</b> is used to perform row operations on the linear programming model as well as for checking optimality.
+<b>Slack variables</b> are additional variables that are introduced into the linear constraints of a linear program to transform them from inequality constraints to equality constraints.
+<b>Surplus variable</b> is a supplementary variable that equals the surplus of the left-hand side over the right-hand side of a functional constraint in ≥ form.
+<b>Standard form</b> is the baseline format for all linear programs before solving for the optimal solution.
+<b>Two-phase method</b> is a method that the simplex method can use to solve a linear programming problem that is not in our standard form by using phase 1 to find a BF solution for the problem and then proceeding as usual in phase 2.
+
+</string>
+    <string name="hardquiz">HARD QUIZ</string>
+    <string name="CALCULATOR">CALCULATOR</string>
+    <string name="linear">LINEAR PROGRAMMING</string>
+    <string name="glossary">GLOSSARY</string>
+
+</resources>
